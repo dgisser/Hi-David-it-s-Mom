@@ -7,3 +7,5 @@ To get the voicemails, I found my backup via this guide http://ios.wonderhowto.c
 ## How to
 
 I then tried the script mentioned in the article http://pastebin.com/9Y43mCMN but it wasn't working for me because all the files were in hex directories (this is probably standard now) so I cd'd into the directory and ran this http://askubuntu.com/questions/146634/shell-script-to-move-all-files-from-subfolders-to-parent-folder and then ran the original script to get all the voicemails. I then figured out which voicemails were from my mother (and appropriate to post) by going through each one (O(n) complexity).
+
+I then made a basic Automator script, (mainly because I met a guy at Apple who wrote a lot of core Automator code and said that it's underutilized by programmers) to convert .amr files to .m4a files which are friendlier with HTML5.
