@@ -1,6 +1,6 @@
 # Hi David it's Mom!
 
-(<a href="https://dgisser.github.io/Hi-David-its-Mom/">https://dgisser.github.io/Hi-David-its-Mom/</a>) This is a fun project to commemorate all of my mom's nice voicemails she's left me throughout the years. It's been a running joke among some of my friends how frequently my mom introduces her voicemails with the phrase "Hi David, it's Mom!" Personal highlights are #117, #71, and #161.
+(<a href="https://dgisser.github.io/Hi-David-its-Mom/">https://dgisser.github.io/Hi-David-its-Mom/</a>) This is a fun project to commemorate all of my mom's nice voicemails she's left me throughout the years. It's been a running joke among some of my friends how frequently my mom introduces her voicemails with the phrase "Hi David, it's Mom!" The following voicemails are in no particular order. Personal highlights are #117, #71, and #161.
 
 {% for file in site.static_files limit: 169 offset: 7 %}
 <div class="audioContainer">
