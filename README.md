@@ -1,9 +1,15 @@
 # Hi David it's Mom!
 
+{% for file in site.static_files limit: 169 offset: 7 %}
+<div>
+<p style="display:inline-block"> {{forloop.index }}</p>
 <audio controls="controls">
-  <source src="https://github.com/dgisser/Hi-David-its-Mom/raw/gh-pages/m4aVoicemails/1.m4a" type="audio/m4a" />
-Your browser does not support the audio element.
-</audio>
+  <source src="https://github.com/dgisser/Hi-David-its-Mom/raw/gh-pages/m4aVoicemails/{{ forloop.index }}.m4a" type="audio/mp4" />
+  Your browser does not support the audio element.
+  </audio>
+  {{file.path}}
+  </div>
+{% endfor %}
 
 (<a href="https://dgisser.github.io/Hi-David-its-Mom/">https://dgisser.github.io/Hi-David-its-Mom/</a>) This is a fun project to commemorate all of my mom's nice voicemails she's left me throughout the years.
 
