@@ -2,3 +2,16 @@
 ---
 
 @import "{{ site.theme }}";
+.item {
+  display: inline-block;
+}
+
+.audio {
+  vertical-align: middle;
+  position: absolute;
+  left: 35px;
+}
+
+.audioContainer {
+  position: relative;
+}
