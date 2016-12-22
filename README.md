@@ -1,7 +1,7 @@
 # Hi David it's Mom!
 
 <audio controls="controls">
-  <source src="/m4aVoicemails/mom1.m4a" type="audio/m4a" />
+  <source src="https://github.com/dgisser/Hi-David-its-Mom/raw/gh-pages/m4aVoicemails/1.m4a" type="audio/m4a" />
 Your browser does not support the audio element.
 </audio>
 
