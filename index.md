@@ -1,5 +1,16 @@
 # Hi David it's Mom!
-(https://dgisser.github.io/Hi-David-its-Mom/) This is a fun project to commemorate all of my mother's thoughtful voicemails she's left me throughout the years. It's been a running joke among some of my friends how frequently my mom introduces her voicemails with the phrase "Hi David, it's Mom!"
+
+(<a href="https://dgisser.github.io/Hi-David-its-Mom/">https://dgisser.github.io/Hi-David-its-Mom/</a>) This is a fun project to commemorate all of my mother's thoughtful voicemails she's left me throughout the years. It's been a running joke among some of my friends how frequently my mom introduces her voicemails with the phrase "Hi David, it's Mom!" The following voicemails were recorded between April 2015 and December 2016 in no particular order. During this period of time I was away from my family for the most part, either on my gap year or during my Freshman or Sophomore years at Carnegie Mellon University. Some of my personal highlights are #117, #71, and #161.
+
+{% for file in site.static_files limit: 169 %}
+<div class="audioContainer">
+<p class="item"> {{forloop.index }}</p>
+<audio controls="controls" class="audio">
+  <source src="https://github.com/dgisser/Hi-David-its-Mom/raw/gh-pages/m4aVoicemails/{{ forloop.index }}.m4a" type="audio/mp4" />
+  Your browser does not support the audio element.
+  </audio>
+  </div>
+{% endfor %}
 
 ## How to
 
