@@ -1,3 +1,9 @@
 theme: jekyll-theme-cayman
 title: "Hi David it's Mom!"
 name: "Hi David it's Mom!"
+
+exclude:
+  - conversionWorkflow.workflow
+  - Gemfile
+  - Gemfile.lock
+  - voicemails.zip
