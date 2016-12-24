@@ -8,7 +8,7 @@
 <div class="audioContainer">
 <p class="item"> {{forloop.index }}</p>
 <audio controls="controls" class="audio">
-  <source src="https://github.com/dgisser/Hi-David-its-Mom/raw/gh-pages/m4aVoicemails/{{ forloop.index }}.m4a" type="audio/mp4" />
+  <source src="https://github.com/dgisser/Hi-David-its-Mom/raw/master/m4aVoicemails/{{ forloop.index }}.m4a" type="audio/mp4" />
   Your browser does not support the audio element.
   </audio>
   </div>
